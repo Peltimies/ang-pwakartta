@@ -35,7 +35,7 @@ export class MapComponent implements AfterViewInit {
       // show a marker on the map
       L.marker(latlng).bindPopup('The center of the world').addTo(this.map);
 
-      if (lat > 62) {
+      if (lat > 55) {
         this.notifyMe();
       }
     });
